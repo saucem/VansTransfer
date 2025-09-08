@@ -120,26 +120,26 @@
 }
 
 #nosotros {
-  background-image: url(/img/slide02.jpeg);
+  background-image: url(../img/slide02.jpeg);
   background-size: cover;
 }
 
 #services-background-1 {
-  background-image: url(/img/slide01.jpeg);
+  background-image: url(../img/slide01.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
 }
 
 #services-background-2 {
-  background-image: url(/img/obelisco-dia.jpg);
+  background-image: url(../img/obelisco-dia.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
 }
 
 #services-background-3 {
-  background-image: url(/img/obelisco-noche.jpeg);
+  background-image: url(../img/obelisco-noche.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
