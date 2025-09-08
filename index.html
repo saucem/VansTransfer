@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Vans Transfer - Transporte Empresarial</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Vans Transfer</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i id="toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#unidades">Unidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="m-3" id="hero">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner rounded-4">
+          <div class="carousel-item active">
+            <img src="./img/slide01.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="slide-title">TRANSPORTE EJECUTIVO</h5>
+              <p class="slide-description">Eventos. Convenciones. Traslados.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slide02.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="slide-title">Second slide label</h5>
+              <p class="slide-description">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slide03.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="slide-title">Third slide label</h5>
+              <p class="slide-description">Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="filtered-background primary-filter" id="nosotros">
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col text-light-color mt-4">
+            <h2>Nosotros</h2>
+            <p>
+             Desde un comienzo hemos mantenido el compromiso de superarnos día a día a fin de brindar un servicio de excelencia, caracterizado por la responsabilidad y la atención personalizada para satisfacer las diferentes necesidades de nuestros clientes, y su satisfacción nos motiva a seguir en este camino. 
+            </p>
+            <a href="" class="btn btn-lg btn-primary rounded-pill">Conocer más</a>
+            <video src="./vid/fleet.mp4" class="w-100 my-4 rounded-2" controls></video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="servicios">
+      <div class="container my-md-4">
+        <div class="row">
+          <div class="col-md-5 rounded-start" id="services-background-1"></div>
+          <div class="col-md-7 bg-medium rounded-end p-4">
+            <div class="col-12">
+              <h2 class="text-center text-primary-color fw-bold mb-4">
+                <span class="d-inline-block">Traslados Empresariales.</span>
+                <span class="d-inline-block">Eventos Corporativos.</span>
+                <span class="d-inline-block">Viajes a TODO EL PAÍS</span>
+              </h2>
+              <p>
+                Nos enfocamos en el <strong>turismo receptivo dinámico</strong>. Ofrecemos traslados empresariales y ejecutivos, excursiones, traslados a todo tipo de eventos, viajes a todo el país e internacionales, entre otros servicios.
+                <br>
+                Nuestra mesa operativa funciona las <strong>24 horas</strong> y está en permanente contacto con los conductores. Utilizamos telefonía celular y sistemas de <strong>seguimiento satelital</strong> para conocer su ubicación al instante.
+              </p>
+            </div>
+            <div class="col-12 mt-4">
+              <h4 class="text-center fw-bold my-2">Contamos con vehículos que se adaptan a cada necesidad:</h4>
+              <div class="row justify-content-center mt-4">
+                <div class="col col-md-3 text-center mb-2">
+                  <img src="./img/svg/shuttle-van-rounded.svg" alt="Sprinter Mercedez Benz" class="icon-64">
+                  <p class="text-tertiary-color fw-bold mb-0 mt-1">Sprinter M. Benz</p>
+                  <p class="small">19 pasajeros</p>
+                </div>
+                <div class="col col-md-3 text-center mb-2">
+                  <img src="./img/svg/shuttle-van.svg" alt="Mini Bus" class="icon-64">
+                  <p class="text-tertiary-color fw-bold mb-0 mt-1">Mini-Bus</p>
+                  <p class="small">24 pasajeros</p>
+                </div>
+                <div class="col col-md-3 text-center mb-2">
+                  <img src="./img/svg/bus.svg" alt="Bus" class="icon-64">
+                  <p class="text-tertiary-color fw-bold mb-0 mt-1">Bus</p>
+                  <p class="small">45 pasajeros</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mt-4">
+              <h4 class="text-center fw-bold my-2">Su confianza está asegurada:</h4>
+              <div class="row justify-content-center mt-4">
+                <div class="col-5 col-md-3 text-center mb-2">
+                  <img src="./img/svg/certification.svg" alt="Habilitada" class="icon-64">
+                  <p class="text-tertiary-color fw-bold mb-0 mt-1">Empresa Habilitada</p>
+                  <p class="small">Secretaría de Transporte de la Nación</p>
+                </div>
+                <div class="col-5 col-md-3 text-center mb-2">
+                  <img src="./img/svg/credential.svg" alt="Registro profesional" class="icon-64">
+                  <p class="text-tertiary-color fw-bold mb-0 mt-1">Conductores</p>
+                  <p class="small">Con registro Profesional</p>
+                </div>
+                <div class="col-5 col-md-3 text-center mb-2">
+                  <img src="./img/svg/shield.svg" alt="Seguro" class="icon-64">
+                  <p class="text-tertiary-color fw-bold mb-0 mt-1">Póliza de Seguro</p>
+                  <p class="small">Vehículos al día</p>
+                </div>
+                <div class="col-5 col-md-3 text-center mb-2">
+                  <img src="./img/svg/satellite.svg" alt="Seguimiento satelital" class="icon-64">
+                  <p class="text-tertiary-color fw-bold mb-0 mt-1">Control</p>
+                  <p class="small">Seguimiento satelital</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-dark">
+      <div class="vp-height-50 filtered-background" id="porque"></div>
+      <div class="container vp-height-50 p-4">
+        <h2 class="text-center">¿Por qué elegirnos?</h2>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-sm-6 mt-4">
+            <ul>
+              <li class="text-light">Amplia y moderna flota</li>
+              <li class="text-light">Servicio las 24 horas</li>
+              <li class="text-light">Traslados Empresariales y Ejecutivos</li>
+              <li class="text-light">Turismo Interurbano</li>
+              <li class="text-light">Gran Turismo</li>
+              <li class="text-light">Turismo Internacional</li>
+              <li class="text-light">Servicios pre y post Aeroportuario Metropolitano<br><span class="text-small">(Decreto 958/1992)</span></li>
+              <li class="text-light">Servicios pre y post Aeroportuario de Jurisdicción Nacional <br><span class="text-small">(Decreto 656/1994)</span></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 mt-2 d-flex flex-column align-items-center gap-4">
+            <img src="./img/logo-25-aniversario.png" alt="25 Aniversario">
+            <a href="#" class="btn btn-lg btn-secondary-color rounded-pill px-3">Contratar ahora</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="servicios-2">
+      <div class="container my-md-4">
+        <div class="row">
+          <div class="col-md-6 bg-medium rounded-start p-4">
+            <ul>
+              <li>City Tour</li>
+              <li>Tour de compras</li>
+              <li>Traslados a Estancias</li>
+              <li>Paseos al Tigre</li>
+              <li>Traslados a los estadios de futbol</li>
+              <li>Traslado a canchas de golf</li>
+              <li>Traslados al Carnaval de Gualeguaychu</li>
+              <li>Turismo religioso (Padre Mario, Virgen de San Nicolás, etc.)</li>
+              <li>Traslados diarios de personal empresarial en Gran Bs. As. y C.A.B.A</li>
+              <li>Traslados de equipos deportivos</li>
+              <li>Traslados a diversos eventos (Congresos, Reuniones, Fiestas, Jornadas de Capacitación, etc.)</li>
+              <li>Eventos Corporativos</li>
+              <li>Promoción de Productos</li>
+              <li>Transfer Aeropuerto Ezeiza (Eze in/Eze out)</li>
+              <li>Transfer Aeroparque (Aep in/Aep out)</li>
+              <li>Transfer Puerto de Bs. As</li>
+              <li>Traslados a disposición</li>
+              <li>Excursiones, campamentos, circuitos educativos</li>
+              <li>Traslados al interior del país</li>
+              <li>Traslados a países limítrofes</li>
+            </ul>
+            <h3 class="fw-bold">
+              <span class="d-inline-block">Amplia y moderna flota.</span>
+              <span class="d-inline-block">Servicios las 24 horas.</span>
+              <span class="d-inline-block">Traslados Empresariales y Ejecutivos.</span>
+            </h3>
+          </div>
+          <div class="col-md-6 rounded-end" id="services-background-2"></div>
+        </div>
+      </div>
+    </section>
+    <section id="servicios-3">
+      <div class="container-fluid vh-100" id="services-background-3">
+        <div class="row justify-content-end align-items-center h-100">
+          <div class="col-md-6 text-center align-self-end align-self-md-center">
+            <img src="./img/van.png" alt="Van" class="w-75 mb-3 mb-md-0">
+          </div>
+          <div class="col-9 col-md-6 bg-dark-translucent p-4 rounded-start-4 text-end align-self-start align-self-md-center">
+            <h2 class="text-start">
+              Ofrecemos Confianza, Seguridad y Experiencia.
+            </h2>
+            <p class="text-start">
+              Contamos con un sector capacitado en el trazo de rutas y estudio de alternativas, logrando optimizar costos para su empresa, tiempos y seguridad en los servicios.
+            </p>
+            <a href="" class="btn btn-lg btn-secondary-color px-3 rounded-pill">Consúltenos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="unidades">
+      <div class="container-fluid bg-secondary-color rounded-bottom-4">
+        <div class="container">
+          <div class="row p-3">
+            <h2 class="fw-bold text-center mb-3">Nuestras unidades</h2>
+            <div class="col-md-8">
+              <p class="mb-0">
+                Contamos con unidades con capacidades de 4, 12, 19, 24 y 45 asientos, equipadas con aire acondicionado, calefacción, equipo audiovisual, sistema de audio con micrófono, porta paquetes interno, baulera, asientos reclinables para garantizar al pasajero el mayor confort.
+              </p>
+            </div>
+            <div class="col-md-4 text-center align-self-center">
+              <i class="bi bi-star-fill fs-1"></i>
+              <i class="bi bi-star-fill fs-1"></i>
+              <i class="bi bi-star-fill fs-1"></i>
+              <i class="bi bi-star-fill fs-1"></i>
+              <i class="bi bi-star-fill fs-1"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 my-4 d-flex flex-column align-items-center my-4">
+            <h4 class="fw-bold text-primary-color mb-4">Sprinter</h4>
+            <img src="./img/van-1x1.png" alt="Sprinter" class="rounded-circle w-50 mb-4">
+            <a href="#" class="btn btn-lg btn-tertiary-color rounded-pill px-4">Galería</a>
+          </div>
+          <div class="col-md-4 d-flex flex-column align-items-center my-4">
+            <h4 class="fw-bold text-primary-color mb-4">Mini-Bus</h4>
+            <img src="./img/minibus-1x1.jpeg" alt="Mini Bus" class="rounded-circle w-50 mb-4">
+            <a href="#" class="btn btn-lg btn-tertiary-color rounded-pill px-4">Galería</a>
+          </div>
+          <div class="col-md-4 d-flex flex-column align-items-center my-4">
+            <h4 class="fw-bold text-primary-color mb-4">Bus</h4>
+            <img src="./img/bus-1x1.jpeg" alt="Bus" class="rounded-circle w-50 mb-4">
+            <a href="#" class="btn btn-lg btn-tertiary-color rounded-pill px-4">Galería</a>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 my-3">
+          <div class="col p-2">
+            <div class="bg-medium rounded-4 p-3 h-100">
+              <p class="m-0">
+                El sistema de <strong>seguimiento satelital GPS</strong> que posee cada una de las unidades permite tener un <strong>enlace permanente</strong> con la base operativa sabiendo la <strong>ubicación y recorrido</strong> que se efectúa, que combinado con la utilización de telefonía nos posibilita estar en contacto <strong>al instante</strong> con cada conductor.
+              </p>
+            </div>
+          </div>
+          <div class="col p-2">
+            <div class="bg-medium rounded-4 p-3 h-100">
+              <p class="m-0">
+                A fin de garantizar el <strong>correcto estado y mantenimiento</strong> de los vehículos disponemos de un <strong>taller propio</strong> dedicado al control de los mismos, asimismo todas las unidades son sometidas semestralmente a la <strong>verificación técnica vehicular</strong>.
+              </p>
+            </div>
+          </div>
+          <div class="col p-2">
+            <div class="bg-medium rounded-4 p-3 h-100">
+              <p class="m-0">
+                Cada unidad presenta a disposición del pasajero la <strong>habilitación individual</strong> emitida por la Secretaría de Transporte de la Nación, <strong>póliza y seguro</strong> del vehículo y de los pasajeros, y la licencia nacional habilitante del conductor, cumpliendo con todas las disposiciones y <strong>normativas legales vigentes</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="" id="mision">
+      <div class="container-fluid vh-100">
+        <div class="row align-items-center h-100">
+          <div class="col-9 col-md-6 col-xl-4 bg-dark-translucent p-4 rounded-end-4 text-end align-self-start align-self-md-center">
+            <h2 class="text-start">
+              Nuestra misión
+            </h2>
+            <p class="text-start">
+              Proveer servicios de traslados con un unico objetivo: brindar un servicio de excelencia en el transporte de pasajeros de corta, media y larga distancia.
+            </p>
+            <a href="" class="btn btn-lg btn-secondary-color px-3 rounded-pill">Hablemos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacto">
+      <div class="container-fluid bg-tertiary-color rounded-bottom-4 p-4">
+        <h2 class="fw-bold text-center">Contacto</h2>
+      </div>
+      <div class="container">
+        <div class="row row-col-1 row-col-md-3 my-4">
+          <div class="col p-2">
+            <div class="rounded-4 bg-medium p-3">
+              <h4 class="fw-bold text-center text-primary-color">Escribinos</h4>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>            </div>
+          </div>
+          <div class="col p-2">
+            <div class="rounded-4 bg-medium p-3">
+              <h4 class="fw-bold text-center text-primary-color">Excursiones</h4>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+          <div class="col p-2">
+            <div class="rounded-4 bg-medium p-3">tricota</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="./js/custom.js"></script>
+</body>
+</html>
