@@ -147,14 +147,14 @@
 
 
 #porque {
-  background-image: url(/img/interior01.jpeg);
+  background-image: url(../img/interior01.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #mision {
-  background-image: url(/img/van-back.jpg);
+  background-image: url(../img/van-back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right center;
