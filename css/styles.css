@@ -81,6 +81,11 @@
 
 /* buttons */
 
+.btn-primary-color {
+  color: white;
+  background-color: var(--primary-color);
+}
+
 .btn-secondary-color {
   color: white;
   background-color: var(--secondary-color);
