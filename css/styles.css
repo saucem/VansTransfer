@@ -165,6 +165,12 @@
   background-position: right center;
 }
 
+#joinus {
+  background-image: url(../img/driver.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
 /* color end */
 
 

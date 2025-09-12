@@ -91,7 +91,7 @@
             <p>
              Desde un comienzo hemos mantenido el compromiso de superarnos día a día a fin de brindar un servicio de excelencia, caracterizado por la responsabilidad y la atención personalizada para satisfacer las diferentes necesidades de nuestros clientes, y su satisfacción nos motiva a seguir en este camino. 
             </p>
-            <a href="" class="btn btn-lg btn-primary rounded-pill">Conocer más</a>
+            <a href="" class="btn btn-primary rounded-pill">Conocer más</a>
             <video src="./vid/fleet.mp4" class="w-100 my-4 rounded-2" controls></video>
           </div>
         </div>
@@ -182,7 +182,7 @@
           </div>
           <div class="col-sm-6 col-md-3 mt-2 d-flex flex-column align-items-center gap-4">
             <img src="./img/logo-25-aniversario.png" alt="25 Aniversario">
-            <a href="#" class="btn btn-lg btn-secondary-color rounded-pill px-3">Contratar ahora</a>
+            <a href="#" class="btn btn-secondary-color rounded-pill px-3">Contratar ahora</a>
           </div>
         </div>
       </div>
@@ -236,7 +236,7 @@
             <p class="text-start">
               Contamos con un sector capacitado en el trazo de rutas y estudio de alternativas, logrando optimizar costos para su empresa, tiempos y seguridad en los servicios.
             </p>
-            <a href="" class="btn btn-lg btn-secondary-color px-3 rounded-pill">Consúltenos</a>
+            <a href="" class="btn btn-secondary-color px-3 rounded-pill">Consúltenos</a>
           </div>
         </div>
       </div>
@@ -266,17 +266,17 @@
           <div class="col-md-4 my-4 d-flex flex-column align-items-center my-4">
             <h4 class="fw-bold text-primary-color mb-4">Sprinter</h4>
             <img src="./img/van-1x1.png" alt="Sprinter" class="rounded-circle w-50 mb-4">
-            <a href="#" class="btn btn-lg btn-tertiary-color rounded-pill px-4">Galería</a>
+            <a href="#" class="btn btn-tertiary-color rounded-pill px-4">Galería</a>
           </div>
           <div class="col-md-4 d-flex flex-column align-items-center my-4">
             <h4 class="fw-bold text-primary-color mb-4">Mini-Bus</h4>
             <img src="./img/minibus-1x1.jpeg" alt="Mini Bus" class="rounded-circle w-50 mb-4">
-            <a href="#" class="btn btn-lg btn-tertiary-color rounded-pill px-4">Galería</a>
+            <a href="#" class="btn btn-tertiary-color rounded-pill px-4">Galería</a>
           </div>
           <div class="col-md-4 d-flex flex-column align-items-center my-4">
             <h4 class="fw-bold text-primary-color mb-4">Bus</h4>
             <img src="./img/bus-1x1.jpeg" alt="Bus" class="rounded-circle w-50 mb-4">
-            <a href="#" class="btn btn-lg btn-tertiary-color rounded-pill px-4">Galería</a>
+            <a href="#" class="btn btn-tertiary-color rounded-pill px-4">Galería</a>
           </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-3 my-3">
@@ -314,7 +314,7 @@
             <p class="text-start">
               Proveer servicios de traslados con un unico objetivo: brindar un servicio de excelencia en el transporte de pasajeros de corta, media y larga distancia.
             </p>
-            <a href="" class="btn btn-lg btn-secondary-color px-3 rounded-pill">Hablemos</a>
+            <a href="" class="btn btn-secondary-color px-3 rounded-pill">Hablemos</a>
           </div>
         </div>
       </div>
@@ -326,7 +326,7 @@
       <div class="container">
         <div class="row row-cols-1 row-cols-md-3 my-4">
           <div class="col p-2">
-            <div class="rounded-4 bg-medium p-3">
+            <div class="rounded-4 bg-medium p-3 h-100 d-flex flex-column justify-content-between">
               <h4 class="fw-bold text-center text-primary-color">Escribinos</h4>
               <form>
                 <div class="mb-3">
@@ -345,34 +345,86 @@
                   <label for="message" class="form-label">Consulta</label>
                   <textarea class="form-control" id="message" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-lg btn-primary-color rounded-pill px-3 mb-2">Enviar consulta</button>
+                <div class="w-100 text-center">
+                  <button type="submit" class="btn btn-secondary-color rounded-pill px-3 mb-2">Enviar consulta</button>
+                </div>
               </form>
             </div>
           </div>
           <div class="col p-2">
-            <div class="rounded-4 bg-medium p-3">
+            <div class="rounded-4 bg-medium p-3 h-100 d-flex flex-column justify-content-between">
               <h4 class="fw-bold text-center text-primary-color">Excursiones</h4>
-              <!-- <form>
+              <form>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  <label for="name" class="form-label">Nombre y apellido</label>
+                  <input type="text" class="form-control" id="name">
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <label for="phone" class="form-label">Teléfono</label>
+                  <input type="phone" class="form-control" id="phone">
                 </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Correo electrónico</label>
+                  <input type="email" class="form-control" id="email">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form> -->
+                <div class="mb-3">
+                  <label for="select" class="form-label">Salidas programadas</label>
+                  <select class="form-select" id="select" aria-label="Default select example">
+                    <option selected>Elija una opción</option>
+                    <option value="1">Gualeguaychú</option>
+                    <option value="2">Termas de Río Hondo</option>
+                    <option value="3">City Tour</option>
+                  </select>
+                </div>
+                <div class="row justify-content-between mb-4">
+                  <div class="col-3">
+                    <label for="passengers" class="form-label">Pasajeros</label>
+                    <input type="number" class="form-control" value="1" id="passengers">
+                  </div>
+                  <div class="col-5">
+                    <label for="select" class="form-label">Mes</label>
+                    <select class="form-select" id="select" aria-label="Default select example">
+                      <option selected>Elija el mes</option>
+                      <option value="1">Enero</option>
+                      <option value="2">Febrero</option>
+                      <option value="3">Marzo</option>
+                      <option value="4">Abril</option>
+                      <option value="5">Mayo</option>
+                      <option value="6">Junio</option>
+                      <option value="7">Julio</option>
+                      <option value="8">Agosto</option>
+                      <option value="9">Septiembre</option>
+                      <option value="10">Octubre</option>
+                      <option value="11">Noviembre</option>
+                      <option value="12">Diciembre</option>
+                    </select>
+                  </div>
+                  <div class="col-4 d-flex flex-column justify-content-end">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+                      <label class="form-check-label" for="checkChecked">
+                        Con estadía
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="w-100 text-center">
+                  <button type="submit" class="btn btn-secondary-color rounded-pill px-3 mb-2">Consultar cupo disponible</button>
+                </div>
+              </form>
             </div>
           </div>
           <div class="col p-2">
-            <div class="rounded-4 bg-medium p-3">
-              <h4 class="fw-bold text-center text-primary-color">Sumate</h4>
+            <div class="rounded-4 bg-medium h-100 d-flex flex-column align-items-center">
+              <div class="h-50 rounded-top-4" id="joinus"></div>
+              <div class="h-50 p-4 d-flex flex-column justify-content-between">
+                <h4 class="fw-bold text-center text-primary-color">¡Sumate a nuestro equipo!</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint veritatis, consequatur fugit esse omnis recusandae impedit consequuntur repudiandae ducimus explicabo beatae molestias aut. Non animi quia, exercitationem inventore omnis veritatis.
+                </p>
+                <a href="#" class="btn btn-primary-color rounded-pill px-3 mb-2">Subí tu CV</a>
+              </div>
             </div>
           </div>
         </div>
