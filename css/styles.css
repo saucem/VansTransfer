@@ -200,6 +200,10 @@ section {
   max-height: 85vh;
 }
 
+.card-image {
+  overflow: hidden;
+}
+
 /* sizing end */
 
 /* bootstrap customization start */
