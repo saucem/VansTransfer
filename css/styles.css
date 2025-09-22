@@ -21,7 +21,7 @@
     --medium-color-subtle: #E5D0CB88;
     --medium-light-color: #E5D0CB;
     --medium-dark-color: #E5D0CB;
-    --light-color: #E0E5F0;
+    --light-color: #edf1fa;
     --light-light-color: #f1f2f5;
     --light-dark-color: #E0E5F0;
   /* color variables end */
@@ -171,7 +171,24 @@
   background-size: cover;
 }
 
+.filter-invert {
+  filter: invert();
+}
+
 /* color end */
+
+/* animations */
+
+@keyframes x-scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* animations-end */
 
 
 
@@ -182,6 +199,27 @@ section {
 }
 
 /* positioning end */
+
+.track {
+  padding: 0 20px;
+  overflow: hidden;
+  display: flex;
+  &:hover .feature-group{
+    animation-play-state: paused;
+  }
+}
+
+.feature-group {
+  display: flex;
+  gap: 20px;
+  will-change: transform; /* Deberíamos ser amables con el navegador: hazle saber qué vamos a animar. */
+  animation: x-scrolling 30s linear infinite;
+}
+
+.feature {
+  width: 300px;
+}
+
 
 /* sizing start */
 
@@ -196,9 +234,16 @@ section {
 .vp-height-75 {min-height: 75dvh;}
 .vp-height-100 {min-height: 100dvh;}
 
-.carousel-inner {
-  max-height: 85vh;
+.navbar {
+  min-height: 10vh;
 }
+
+.carousel-inner > .carousel-item > img {
+  width: 100%; /* Ensures the image spans the container width */
+  max-height: 90vh; /* Set a fixed height */
+  object-fit: cover; /* Maintains aspect ratio and fills the container */
+}
+
 
 .card-image {
   overflow: hidden;
