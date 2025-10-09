@@ -5,13 +5,13 @@
   --gutter: 12px;
   /* color variables start */
     --primary-color: #1B3664;
-    --primary-light-color: #1B3664;
+    --primary-light-color: #1a4ca1;
     --primary-dark-color: #1B3664;
     --secondary-color: #CD2027;
-    --secondary-light-color: #CD2027;
+    --secondary-light-color: #e6393f;
     --secondary-dark-color: #CD2027;
     --tertiary-color: #2293D6;
-    --tertiary-light-color: #2293D6;
+    --tertiary-light-color: #2aa8f1;
     --tertiary-dark-color: #2293D6;
     --dark-color: #24242C;
     --dark-light-color: #24242C;
@@ -84,16 +84,28 @@
 .btn-primary-color {
   color: white;
   background-color: var(--primary-color);
+  &:hover {
+    color: white;
+    background-color: var(--primary-light-color);
+  }
 }
 
 .btn-secondary-color {
   color: white;
   background-color: var(--secondary-color);
+  &:hover {
+    color: white;
+    background-color: var(--secondary-light-color);
+  }
 }
 
 .btn-tertiary-color {
   color: white;
   background-color: var(--tertiary-color);
+  &:hover {
+    color: white;
+    background-color: var(--tertiary-light-color);
+  }
 }
 
 .filtered-background {
@@ -130,7 +142,7 @@
 }
 
 #services-background-1 {
-  background-image: url(../img/slide01.jpeg);
+  background-image: url(../img/sprinter/sprinter-1x1.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
@@ -159,7 +171,7 @@
 }
 
 #mision {
-  background-image: url(../img/van-back.jpg);
+  background-image: url(../img/minibus/minibus-16x9.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right center;
@@ -212,7 +224,7 @@ section {
 .feature-group {
   display: flex;
   gap: 20px;
-  will-change: transform; /* Deberíamos ser amables con el navegador: hazle saber qué vamos a animar. */
+  will-change: transform;
   animation: x-scrolling 30s linear infinite;
 }
 
@@ -247,6 +259,10 @@ section {
 
 .card-image {
   overflow: hidden;
+}
+
+#sent {
+  min-height: 90dvh;
 }
 
 /* sizing end */
@@ -297,6 +313,68 @@ section {
 .rounded-pill {
   padding: .5rem 1.5rem;
 }
+
+.carousel-item img {
+  filter:brightness(75%)
+}
+
+.carousel-caption {
+  height: 100%;
+  top: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-shadow: 0 0 15px rgba(0, 0, 0, .85);
+}
+
+.slide-title {
+  font-size: 5dvw;
+  margin: 0;
+}
+
+.slide-description {
+  font-size: 3dvw;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10dvw;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--secondary-color);
+  background-size: 75%;
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon {
+  background-position: 25%;
+}
+
+.carousel-control-next-icon {
+  background-position: 75%;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 1.5dvw;
+  height: 1.5dvw;
+  border-radius: 50%;
+  margin: 0 1dvw;
+  background-color: var(--secondary-color);
+}
+
+.carousel-indicators .active {
+  width: 2dvw;
+  height: 2dvw;
+}
+
 /* bootstrap customization end */
 
 /* media queries start */
@@ -313,5 +391,18 @@ section {
   .rounded-bottom-md{
     border-radius: 0 0 1rem 1rem !important;
   }  
+  .carousel-indicators [data-bs-target] {
+    width: .75dvw;
+    height: .75dvw;
+    margin: 0 .75dvw;
+  }
+
+  .carousel-indicators .active {
+    width: 1dvw;
+    height: 1dvw;
+  }
+
+
+
 }
 /* media queries end */
