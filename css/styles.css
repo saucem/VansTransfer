@@ -148,7 +148,7 @@
   background-position: center left;
 }
 
-#services-background-2 {
+#services-background-2, #sent {
   background-image: url(../img/obelisco-dia.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -198,6 +198,62 @@
   100% {
     transform: translateX(-100%);
   }
+}
+
+@keyframes slide-from-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-from-right {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.animate-on-viewport {
+  animation-timeline: view();
+  animation-fill-mode: both;
+  &.slide-from-left {
+    animation-name: slide-from-left;
+  }
+  &.slide-from-right {
+    animation-name: slide-from-right;
+  }
+  &.range-start-0 {animation-range-start:entry 0%;}
+  &.range-start-10 {animation-range-start:entry 10%;}
+  &.range-start-20 {animation-range-start:entry 20%;}
+  &.range-start-30 {animation-range-start:entry 30%;}
+  &.range-start-40 {animation-range-start:entry 40%;}
+  &.range-start-50 {animation-range-start:entry 50%;}
+  &.range-start-60 {animation-range-start:entry 60%;}
+  &.range-start-70 {animation-range-start:entry 70%;}
+  &.range-start-80 {animation-range-start:entry 80%;}
+  &.range-start-90 {animation-range-start:entry 90%;}
+  &.range-start-100 {animation-range-start:entry 100%;}
+  &.range-end-0 {animation-range-end: cover 0%;}
+  &.range-end-10 {animation-range-end: cover 10%;}
+  &.range-end-20 {animation-range-end: cover 20%;}
+  &.range-end-30 {animation-range-end: cover 30%;}
+  &.range-end-40 {animation-range-end: cover 40%;}
+  &.range-end-50 {animation-range-end: cover 50%;}
+  &.range-end-60 {animation-range-end: cover 60%;}
+  &.range-end-70 {animation-range-end: cover 70%;}
+  &.range-end-80 {animation-range-end: cover 80%;}
+  &.range-end-90 {animation-range-end: cover 90%;}
+  &.range-end-100 {animation-range-end: cover 100%;}
+
 }
 
 /* animations-end */
