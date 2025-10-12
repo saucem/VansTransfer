@@ -61,7 +61,6 @@
   background-blend-mode: multiply;
 }
 
-
 /* text */
 .text-light-color {
   color: var(--light-color);
@@ -107,6 +106,18 @@
     background-color: var(--tertiary-light-color);
   }
 }
+
+.btn-light-outline {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  &:hover {
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+/* sections */
 
 .filtered-background {
   position: relative;
@@ -258,7 +269,22 @@
 
 /* animations-end */
 
+/* interactions start */
 
+.gallery-link {
+  &:hover {
+    & .overlay-text {
+      transition: all 100ms ease;
+      display: block !important;
+    }
+    & > img {
+      transition: all 300ms ease;
+      filter: brightness(40%);
+    }
+  }
+}
+
+/* interactions end */
 
 /* positioning start */
 
@@ -322,6 +348,17 @@ section {
 }
 
 /* sizing end */
+
+/* layout customization start */
+
+.masonry {
+  column-gap: 1rem;
+  & .masonry-item {
+    margin-bottom: 1rem;
+  }
+}
+
+/* layout customization end */
 
 /* bootstrap customization start */
 #toggler-icon {
@@ -431,10 +468,63 @@ section {
   height: 2dvw;
 }
 
+.modal-xxl {
+  width: 100%;
+  max-width: 768px;
+}
+
 /* bootstrap customization end */
 
 /* media queries start */
-@media (min-width: 768px){
+/* XS Screens */
+  .columns-1 {column-count: 1;}
+  .columns-2 {column-count: 2;}
+  .columns-3 {column-count: 3;}
+  .columns-4 {column-count: 4;}
+  .columns-5 {column-count: 5;}
+  .columns-6 {column-count: 6;}
+  .columns-7 {column-count: 7;}
+  .columns-8 {column-count: 8;}
+  .columns-9 {column-count: 9;}
+  .columns-10 {column-count: 10;}
+  .columns-11 {column-count: 11;}
+  .columns-12 {column-count: 12;}
+
+/* SM Screens */
+@media screen and (min-width: 576px) {
+  .columns-sm-1 {column-count: 1;}
+  .columns-sm-2 {column-count: 2;}
+  .columns-sm-3 {column-count: 3;}
+  .columns-sm-4 {column-count: 4;}
+  .columns-sm-5 {column-count: 5;}
+  .columns-sm-6 {column-count: 6;}
+  .columns-sm-7 {column-count: 7;}
+  .columns-sm-8 {column-count: 8;}
+  .columns-sm-9 {column-count: 9;}
+  .columns-sm-10 {column-count: 10;}
+  .columns-sm-11 {column-count: 11;}
+  .columns-sm-12 {column-count: 12;}
+}
+
+
+/* MD Screens */
+@media screen and (min-width: 768px) {
+  .columns-sm-1 {column-count: 1;}
+  .columns-sm-2 {column-count: 2;}
+  .columns-sm-3 {column-count: 3;}
+  .columns-sm-4 {column-count: 4;}
+  .columns-sm-5 {column-count: 5;}
+  .columns-sm-6 {column-count: 6;}
+  .columns-sm-7 {column-count: 7;}
+  .columns-sm-8 {column-count: 8;}
+  .columns-sm-9 {column-count: 9;}
+  .columns-sm-10 {column-count: 10;}
+  .columns-sm-11 {column-count: 11;}
+  .columns-sm-12 {column-count: 12;}
+}
+
+/* LG Screens */
+@media screen and (min-width: 992px) {
   .rounded-start-md{
     border-radius: 1rem 0 0 1rem !important;
   }  
@@ -452,13 +542,32 @@ section {
     height: .75dvw;
     margin: 0 .75dvw;
   }
-
   .carousel-indicators .active {
     width: 1dvw;
     height: 1dvw;
   }
+  .columns-md-1 {column-count: 1;}
+  .columns-md-2 {column-count: 2;}
+  .columns-md-3 {column-count: 3;}
+  .columns-md-4 {column-count: 4;}
+  .columns-md-5 {column-count: 5;}
+  .columns-md-6 {column-count: 6;}
+  .columns-md-7 {column-count: 7;}
+  .columns-md-8 {column-count: 8;}
+  .columns-md-9 {column-count: 9;}
+  .columns-md-10 {column-count: 10;}
+  .columns-md-11 {column-count: 11;}
+  .columns-md-12 {column-count: 12;}
+}
 
+/* XL Screens */
+@media screen and (min-width: 1200px) {
+  
+}
 
+/* XXL Screens */
+@media screen and (min-width: 1400px) {
 
 }
+
 /* media queries end */

@@ -1,6 +1,9 @@
 window.onload = function() {
-    // Reset the form fields when the page loads
-    document.getElementById("first-form").reset();
+  // Reset the form fields when the page loads
+  const formPresent = document.getElementById("first-form");
+  if (formPresent) {
+    formPresent.reset();
+  }
 };
 
 const buttonToggler = document.querySelector(".navbar-toggler");
@@ -20,3 +23,4 @@ function goBack() {
       alert("No hay una página anterior en el historial.");
   }
 }
+
