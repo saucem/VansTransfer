@@ -12,9 +12,9 @@
   <link rel="stylesheet" href="./css/styles.css">
   <title>Vans Transfer - Transporte Empresarial</title>
 </head>
-<body>
-  <header id="header">
-    <nav class="navbar navbar-expand-lg bg-dark">
+<body data-bs-spy="scroll" data-bs-target="#main-nav">
+  <header id="header" class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-dark" id="main-nav">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="./img/isologo-white.png" alt="Isologo Vans Transfer Tours" width="200">
@@ -25,7 +25,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="index.html#hero">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#nosotros">Nosotros</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html#servicios">Servicios</a>
@@ -34,7 +37,7 @@
               <a class="nav-link" href="index.html#unidades">Unidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#nosotros">Nosotros</a>
+              <a class="nav-link" href="index.html#mision">Misión</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html#contacto">Contacto</a>
@@ -44,7 +47,6 @@
       </div>
     </nav>
   </header>
-  
   <main>
     <section id="hero">
       <div id="carouselExampleCaptions" class="carousel slide">
@@ -94,7 +96,7 @@
             <p>
               Desde un comienzo hemos mantenido el compromiso de superarnos día a día a fin de brindar un servicio de excelencia, caracterizado por la responsabilidad y la atención personalizada para satisfacer las diferentes necesidades de nuestros clientes, y su satisfacción nos motiva a seguir en este camino. 
             </p>
-            <a href="" class="btn btn-primary rounded-pill"><i class="bi bi-info-circle me-2"></i>Conocer más</a>
+            <a href="us.html" class="btn btn-primary rounded-pill"><i class="bi bi-info-circle me-2"></i>Conocer más</a>
             <video src="./vid/fleet.mp4" class="w-100 my-4 rounded-2" controls muted></video>
           </div>
         </div>
@@ -165,170 +167,170 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="bg-dark">
-      <div class="vp-height-50 filtered-background d-flex flex-column justify-content-center" id="porque">
-        <div class="track d-flex overflow-hidden">
-          <div class="feature-group">
-            <div class="feature text-center position-relative">
-              <i class="bi bi-stopwatch display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Puntualidad</h6>
-              <p>Siempre a horario</p>
+      <article class="bg-dark">
+        <div class="vp-height-50 filtered-background d-flex flex-column justify-content-center" id="porque">
+          <div class="track d-flex overflow-hidden">
+            <div class="feature-group">
+              <div class="feature text-center position-relative">
+                <i class="bi bi-stopwatch display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Puntualidad</h6>
+                <p>Siempre a horario</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-star display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Calidad</h6>
+                <p>Atención en cada detalle</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-headset display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Comunicación</h6>
+                <p>Contamos con la última tecnología</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-award display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Responsabilidad</h6>
+                <p>Profesionalismo y dedicación</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-clipboard-check display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Seguridad</h6>
+                <p>Capacitación e innovación constante</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-people display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Trabajo en equipo</h6>
+                <p>Valiosos Recursos Humanos</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-suitcase display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Honestidad</h6>
+                <p>Entrega segura de objetos extraviados</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-lightbulb display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Originalidad</h6>
+                <p>Desarrollo de servicios a medida</p>
+              </div>
             </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-star display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Calidad</h6>
-              <p>Atención en cada detalle</p>
-            </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-headset display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Comunicación</h6>
-              <p>Contamos con la última tecnología</p>
-            </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-award display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Responsabilidad</h6>
-              <p>Profesionalismo y dedicación</p>
-            </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-clipboard-check display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Seguridad</h6>
-              <p>Capacitación e innovación constante</p>
-            </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-people display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Trabajo en equipo</h6>
-              <p>Valiosos Recursos Humanos</p>
-            </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-suitcase display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Honestidad</h6>
-              <p>Entrega segura de objetos extraviados</p>
-            </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-lightbulb display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Originalidad</h6>
-              <p>Desarrollo de servicios a medida</p>
+            <div class="feature-group" aria-hidden="true">
+              <div class="feature text-center position-relative">
+                <i class="bi bi-stopwatch display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Puntualidad</h6>
+                <p>Siempre a horario</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-star display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Calidad</h6>
+                <p>Atención en cada detalle</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-headset display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Comunicación</h6>
+                <p>Contamos con la última tecnología</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-award display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Responsabilidad</h6>
+                <p>Profesionalismo y dedicación</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-clipboard-check display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Seguridad</h6>
+                <p>Capacitación e innovación constante</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-people display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Trabajo en equipo</h6>
+                <p>Valiosos Recursos Humanos</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-suitcase display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Honestidad</h6>
+                <p>Entrega segura de objetos extraviados</p>
+              </div>
+              <div class="feature text-center position-relative">
+                <i class="bi bi-lightbulb display-1"></i>
+                <h6 class="mt-2 mb-0 text-uppercase">Originalidad</h6>
+                <p>Desarrollo de servicios a medida</p>
+              </div>
             </div>
           </div>
-          <div class="feature-group" aria-hidden="true">
-            <div class="feature text-center position-relative">
-              <i class="bi bi-stopwatch display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Puntualidad</h6>
-              <p>Siempre a horario</p>
+        </div>
+        <div class="container vp-height-50 p-4">
+          <h2 class="text-center">¿Por qué elegirnos?</h2>
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-6 mt-4">
+              <ul>
+                <li class="text-light fs-5">Amplia y moderna flota</li>
+                <li class="text-light fs-5">Servicio las 24 horas</li>
+                <li class="text-light fs-5">Traslados Empresariales y Ejecutivos</li>
+                <li class="text-light fs-5">Empresa habilitada por la C.N.R.T</li>
+                <li class="text-light fs-5">Conductores con registro profesional</li>
+                <li class="text-light fs-5">Pólizas de seguro para todos nuestros vehículos</li>
+                <li class="text-light fs-5">Seguimiento satelital permanente</li>
+              </ul>
             </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-star display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Calidad</h6>
-              <p>Atención en cada detalle</p>
-            </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-headset display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Comunicación</h6>
-              <p>Contamos con la última tecnología</p>
-            </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-award display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Responsabilidad</h6>
-              <p>Profesionalismo y dedicación</p>
-            </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-clipboard-check display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Seguridad</h6>
-              <p>Capacitación e innovación constante</p>
-            </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-people display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Trabajo en equipo</h6>
-              <p>Valiosos Recursos Humanos</p>
-            </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-suitcase display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Honestidad</h6>
-              <p>Entrega segura de objetos extraviados</p>
-            </div>
-            <div class="feature text-center position-relative">
-              <i class="bi bi-lightbulb display-1"></i>
-              <h6 class="mt-2 mb-0 text-uppercase">Originalidad</h6>
-              <p>Desarrollo de servicios a medida</p>
+            <div class="col-sm-6 col-md-3 mt-2 d-flex flex-column align-items-center gap-4">
+              <img src="./img/logo-25-aniversario.png" alt="25 Aniversario">
+              <a href="#contacto" class="btn btn-secondary-color rounded-pill px-3">Contratar ahora</a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="container vp-height-50 p-4">
-        <h2 class="text-center">¿Por qué elegirnos?</h2>
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-6 mt-4">
-            <ul>
-              <li class="text-light fs-5">Amplia y moderna flota</li>
-              <li class="text-light fs-5">Servicio las 24 horas</li>
-              <li class="text-light fs-5">Traslados Empresariales y Ejecutivos</li>
-              <li class="text-light fs-5">Empresa habilitada por la C.N.R.T</li>
-              <li class="text-light fs-5">Conductores con registro profesional</li>
-              <li class="text-light fs-5">Pólizas de seguro para todos nuestros vehículos</li>
-              <li class="text-light fs-5">Seguimiento satelital permanente</li>
-            </ul>
-          </div>
-          <div class="col-sm-6 col-md-3 mt-2 d-flex flex-column align-items-center gap-4">
-            <img src="./img/logo-25-aniversario.png" alt="25 Aniversario">
-            <a href="#contacto" class="btn btn-secondary-color rounded-pill px-3">Contratar ahora</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="servicios-2">
-      <div class="container py-md-4">
-        <div class="row">
-          <div class="col-md-6 bg-medium rounded-start-md p-4">
-            <ul>
-              <li>City Tour</li>
-              <li>Tour de compras</li>
-              <li>Traslados a Estancias</li>
-              <li>Paseos al Tigre</li>
-              <li>Traslados a los estadios de futbol</li>
-              <li>Traslado a canchas de golf</li>
-              <li>Traslados al Carnaval de Gualeguaychu</li>
-              <li>Turismo religioso (Padre Mario, Virgen de San Nicolás, etc.)</li>
-              <li>Traslados diarios de personal empresarial en Gran Bs. As. y C.A.B.A</li>
-              <li>Traslados de equipos deportivos</li>
-              <li>Traslados a diversos eventos (Congresos, Reuniones, Fiestas, Jornadas de Capacitación, etc.)</li>
-              <li>Eventos Corporativos</li>
-              <li>Promoción de Productos</li>
-              <li>Transfer Aeropuerto Ezeiza (Eze in/Eze out)</li>
-              <li>Transfer Aeroparque (Aep in/Aep out)</li>
-              <li>Transfer Puerto de Bs. As</li>
-              <li>Traslados a disposición</li>
-              <li>Excursiones, campamentos, circuitos educativos</li>
-              <li>Traslados al interior del país</li>
-              <li>Traslados a países limítrofes</li>
-            </ul>
-            <h3 class="fw-bold">
-              <span class="d-inline-block">Amplia y moderna flota.</span>
-              <span class="d-inline-block">Servicios las 24 horas.</span>
-              <span class="d-inline-block">Traslados Empresariales y Ejecutivos.</span>
-            </h3>
-          </div>
-          <div class="col-md-6 rounded-end-4" id="services-background-2"></div>
-        </div>
-      </div>
-    </section>
-    <section id="servicios-3">
-      <div class="container-fluid vh-100 d-flex flex-column justify-content-center" id="services-background-3">
-        <div class="row justify-content-end">
-          <div class="col-md-6 text-center align-self-end align-self-md-center animate-on-viewport slide-from-left range-start-0 range-end-50">
-            <img src="./img/van.png" alt="Van" class="w-75 mb-3 mb-md-0">
-          </div>
-          <div class="col-9 col-md-6 bg-dark-translucent p-4 rounded-start-4 text-end align-self-md-center animate-on-viewport slide-from-right range-start-10 range-end-30">
-            <h2 class="text-start">
-              Ofrecemos Confianza, Seguridad y Experiencia.
-            </h2>
-            <p class="text-start fs-5">
-              Contamos con un sector capacitado en el trazo de rutas y estudio de alternativas, logrando optimizar costos para su empresa, tiempos y seguridad en los servicios.
-            </p>
-            <a href="#contacto" class="btn btn-secondary-color px-3 rounded-pill">Consúltenos</a>
+      </article>
+      <article id="servicios-2">
+        <div class="container py-md-4">
+          <div class="row">
+            <div class="col-md-6 bg-medium rounded-start-md p-4">
+              <ul>
+                <li>City Tour</li>
+                <li>Tour de compras</li>
+                <li>Traslados a Estancias</li>
+                <li>Paseos al Tigre</li>
+                <li>Traslados a los estadios de futbol</li>
+                <li>Traslado a canchas de golf</li>
+                <li>Traslados al Carnaval de Gualeguaychu</li>
+                <li>Turismo religioso (Padre Mario, Virgen de San Nicolás, etc.)</li>
+                <li>Traslados diarios de personal empresarial en Gran Bs. As. y C.A.B.A</li>
+                <li>Traslados de equipos deportivos</li>
+                <li>Traslados a diversos eventos (Congresos, Reuniones, Fiestas, Jornadas de Capacitación, etc.)</li>
+                <li>Eventos Corporativos</li>
+                <li>Promoción de Productos</li>
+                <li>Transfer Aeropuerto Ezeiza (Eze in/Eze out)</li>
+                <li>Transfer Aeroparque (Aep in/Aep out)</li>
+                <li>Transfer Puerto de Bs. As</li>
+                <li>Traslados a disposición</li>
+                <li>Excursiones, campamentos, circuitos educativos</li>
+                <li>Traslados al interior del país</li>
+                <li>Traslados a países limítrofes</li>
+              </ul>
+              <h3 class="fw-bold">
+                <span class="d-inline-block">Amplia y moderna flota.</span>
+                <span class="d-inline-block">Servicios las 24 horas.</span>
+                <span class="d-inline-block">Traslados Empresariales y Ejecutivos.</span>
+              </h3>
+            </div>
+            <div class="col-md-6 rounded-end-4" id="services-background-2"></div>
           </div>
         </div>
-      </div>
+      </article>
+      <article id="servicios-3">
+        <div class="container-fluid vh-100 d-flex flex-column justify-content-center" id="services-background-3">
+          <div class="row justify-content-end">
+            <div class="col-md-6 text-center align-self-end align-self-md-center animate-on-viewport slide-from-left range-start-0 range-end-50">
+              <img src="./img/van.png" alt="Van" class="w-75 mb-3 mb-md-0">
+            </div>
+            <div class="col-9 col-md-6 bg-dark-translucent p-4 rounded-start-4 text-end align-self-md-center animate-on-viewport slide-from-right range-start-10 range-end-30">
+              <h2 class="text-start">
+                Ofrecemos Confianza, Seguridad y Experiencia.
+              </h2>
+              <p class="text-start fs-5">
+                Contamos con un sector capacitado en el trazo de rutas y estudio de alternativas, logrando optimizar costos para su empresa, tiempos y seguridad en los servicios.
+              </p>
+              <a href="#contacto" class="btn btn-secondary-color px-3 rounded-pill">Consúltenos</a>
+            </div>
+          </div>
+        </div>
+      </article>
     </section>
     <section id="unidades">
       <div class="container-fluid bg-secondary-color rounded-bottom-4">
@@ -337,7 +339,7 @@
             <h2 class="fw-bold text-center mb-3">Nuestras unidades</h2>
             <div class="col-md-8">
               <p class="mb-0">
-                Contamos con unidades con capacidades de 4, 12, 19, 24 y 45 asientos, equipadas con aire acondicionado, calefacción, equipo audiovisual, sistema de audio con micrófono, porta paquetes interno, baulera, asientos reclinables para garantizar al pasajero el mayor confort.
+                Contamos con unidades con capacidades de 4, 12, 19 y 24 asientos, equipadas con aire acondicionado, calefacción, equipo audiovisual, sistema de audio con micrófono, porta paquetes interno, baulera, asientos reclinables para garantizar al pasajero el mayor confort.
               </p>
             </div>
             <div class="col-md-4 text-center align-self-center">
@@ -528,7 +530,6 @@
       </div>
     </section>
   </main>
-  
   <footer class="bg-dark p-4">
     <div class="container">
       <div class="row">
@@ -558,19 +559,19 @@
           <div class="nav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a href="#header" class="nav-link">Inicio</a>
+                <a href="index.html#header" class="nav-link">Inicio</a>
               </li>
               <li class="nav-item">
-                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="index.html#servicios" class="nav-link">Servicios</a>
               </li>
               <li class="nav-item">
-                <a href="#nosotros" class="nav-link">Nosotros</a>
+                <a href="index.html#nosotros" class="nav-link">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a href="#unidades" class="nav-link">Unidades</a>
+                <a href="index.html#unidades" class="nav-link">Unidades</a>
               </li>
               <li class="nav-item">
-                <a href="#contacto" class="nav-link">Contacto</a>
+                <a href="index.html#contacto" class="nav-link">Contacto</a>
               </li>
             </ul>
           </div>

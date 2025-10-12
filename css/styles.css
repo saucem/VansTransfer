@@ -292,6 +292,14 @@ section {
   position: relative;
 }
 
+#float-logo {
+  width: 20%;
+  right: 1rem;
+  bottom: 1rem;
+  transform: translateX(-1rem) translateY(0%);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, .5);
+}
+
 /* positioning end */
 
 .track {
@@ -346,6 +354,9 @@ section {
 #sent {
   min-height: 90dvh;
 }
+
+.w-30 {width: 30% !important;}
+.w-40 {width: 40% !important;}
 
 /* sizing end */
 
