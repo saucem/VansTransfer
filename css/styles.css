@@ -14,7 +14,7 @@
     --tertiary-light-color: #2aa8f1;
     --tertiary-dark-color: #2293D6;
     --dark-color: #24242C;
-    --dark-light-color: #24242C;
+    --dark-light-color: #444453;
     --dark-dark-color: #24242C;
     --dark-translucent-color: #24242CAA;
     --medium-color: #e2f6fd;
@@ -288,6 +288,11 @@
 
 /* positioning start */
 
+html {
+  scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+}
+
 section {
   position: relative;
 }
@@ -337,7 +342,7 @@ section {
 .vp-height-100 {min-height: 100dvh;}
 
 .navbar {
-  min-height: 10vh;
+  min-height: 5rem;
 }
 
 .carousel-inner > .carousel-item > img {
@@ -357,6 +362,10 @@ section {
 
 .w-30 {width: 30% !important;}
 .w-40 {width: 40% !important;}
+
+#contact-form-container {
+  max-width: 992px;
+}
 
 /* sizing end */
 
@@ -485,6 +494,23 @@ section {
 }
 
 /* bootstrap customization end */
+
+.uploadcare--widget__button {
+  background-color: var(--dark-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 2rem;
+}
+
+.uploadcare--widget__button:hover {
+  background-color: var(--dark-light-color);
+}
+
+.uploadcare--widget__button:focus {
+  background-color: var(--dark-light-color);
+}
+
 
 /* media queries start */
 /* XS Screens */
