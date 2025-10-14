@@ -182,7 +182,7 @@
 }
 
 #mision {
-  background-image: url(../img/minibus/minibus-16x9.jpeg);
+  background-image: url(../img/minibus/mision-xs.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right center;
@@ -545,6 +545,12 @@ section {
   .columns-sm-10 {column-count: 10;}
   .columns-sm-11 {column-count: 11;}
   .columns-sm-12 {column-count: 12;}
+
+  #mision {
+    background-image: url(../img/minibus/mision.png);
+  }
+
+
 }
 
 
