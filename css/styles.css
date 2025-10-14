@@ -367,6 +367,10 @@ section {
   max-width: 992px;
 }
 
+.mirror-h {
+  transform: scaleX(-1);
+}
+
 /* sizing end */
 
 /* layout customization start */
