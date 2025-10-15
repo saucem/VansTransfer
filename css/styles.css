@@ -585,13 +585,13 @@ section {
     border-radius: 0 0 1rem 1rem !important;
   }  
   .carousel-indicators [data-bs-target] {
-    width: .75dvw;
-    height: .75dvw;
-    margin: 0 .75dvw;
+    width: .5dvw;
+    height: .5dvw;
+    margin: 0 .5dvw;
   }
   .carousel-indicators .active {
-    width: 1dvw;
-    height: 1dvw;
+    width: .75dvw;
+    height: .75dvw;
   }
   .columns-md-1 {column-count: 1;}
   .columns-md-2 {column-count: 2;}
